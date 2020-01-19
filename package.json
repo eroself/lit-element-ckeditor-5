@@ -1,0 +1,10 @@
+{
+  "name": "lit-element-example-3r3dva",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^11.0.1",
+    "@polymer/lit-element": "^0.6.1",
+    "@webcomponents/webcomponentsjs": "^2.1.3"
+  }
+}
