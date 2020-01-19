@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="lit">
+    <output-path>$PROJECT_DIR$/out/artifacts/lit</output-path>
+    <root id="archive" name="lit.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/node_modules" />
+      <element id="file-copy" path="$PROJECT_DIR$/ckeditor.js" />
+      <element id="file-copy" path="$PROJECT_DIR$/index.html" />
+      <element id="file-copy" path="$PROJECT_DIR$/index.js" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

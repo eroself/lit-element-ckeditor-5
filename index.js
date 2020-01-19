@@ -1,5 +1,5 @@
 import {LitElement, html} from '@polymer/lit-element';
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import 'ckeditor';
 
 class MyElement extends LitElement {
 
@@ -8,7 +8,7 @@ class MyElement extends LitElement {
   constructor() {
     super();
 
-    ClassicEditor
+    CKEDITOR.ClassicEditor
       .create( document.querySelector( '#editor' ) )
       .then( editor => {
         window.editor = editor;
@@ -20,4 +20,3 @@ class MyElement extends LitElement {
 }
 
 customElements.define('my-element', MyElement);
-  
